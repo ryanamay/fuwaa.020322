@@ -4,7 +4,7 @@ export default function SEO({title, desc, path}) {
     return(
         <Head> 
             <title>{title} - Nafu</title>
-           
+            <link rel="stylesheet" href="/fonts/stylesheet.css" /> 
         </Head>
     )
 }
