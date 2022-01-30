@@ -5,7 +5,7 @@ export default function Experience() {
         Let&apos;s turn your dream to a reality.
       </h1>
       <h3 className="text-2xl font-bold mt-4">Let&apos;s get in touch.</h3>
-      <div className="flex flex-col flex-grow justify-center p-5 rounded mb-32 mt-10 bg-gradient-to-r from-red-600 to-indigo-600 mx-auto text-left">
+      <div className="flex flex-col flex-grow justify-center p-5 rounded mb-32 mt-10 bg-gradient-to-r from-red-600 to-indigo-600  text-left">
         <form action="">
           <div className="flex flex-col sm:flex-row sm:space-x-2">
             <label className="text-white mt-2" htmlFor="">

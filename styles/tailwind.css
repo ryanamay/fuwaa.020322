@@ -685,6 +685,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 0.25rem;
 }
 
+.mr-5{
+  margin-right: 1.25rem;
+}
+
 .block{
   display: block;
 }
@@ -727,6 +731,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .h-64{
   height: 16rem;
+}
+
+.h-12{
+  height: 3rem;
 }
 
 .min-h-screen{
@@ -1405,6 +1413,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     --tw-space-x-reverse: 0;
     margin-right: calc(0.5rem * var(--tw-space-x-reverse));
     margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .sm\:space-x-5 > :not([hidden]) ~ :not([hidden]){
+    --tw-space-x-reverse: 0;
+    margin-right: calc(1.25rem * var(--tw-space-x-reverse));
+    margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .sm\:px-12{

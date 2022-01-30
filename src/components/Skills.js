@@ -25,10 +25,10 @@ export default function Skills() {
             Strong Understanding
           </h3>
           <p className="mb-4">Stuff I excel at. </p>
-          <div className="mb-5 text-8xl text-slate-500 space-x-5">
-            <FaHtml5 className="mx-auto inline" />
-            <FaCss3Alt className="mx-auto inline" />
-            <SiJavascript className="mx-auto inline" />
+          <div className="mb-5 text-8xl text-slate-500">
+            <FaHtml5 className="mx-auto inline mr-5" />
+            <FaCss3Alt className="mx-auto inline mr-5" />
+            <SiJavascript className="mx-auto inline mr-5" />
           </div>
         </div>
         <div className="mt-2">
@@ -36,13 +36,13 @@ export default function Skills() {
             Basic Understanding
           </h3>
           <p className="mb-4">Stuff I know somewhere at the back of my head. </p>
-          <div className="mb-5 text-5xl text-slate-500 space-x-5">
-            <FaPython className="mx-auto inline" />
-            <SiJquery className="mx-auto inline" />
-            <FaNodeJs className="mx-auto inline" />
-            <SiMongodb className="mx-auto inline" />
-            <FaReact className="mx-auto inline" />
-            <SiNextdotjs className="mx-auto inline" />
+          <div className="mb-5 text-5xl text-slate-500">
+            <FaPython className="mx-auto inline mr-5" />
+            <SiJquery className="mx-auto inline mr-5" />
+            <FaNodeJs className="mx-auto inline mr-5" />
+            <SiMongodb className="mx-auto inline mr-5" />
+            <FaReact className="mx-auto inline mr-5" />
+            <SiNextdotjs className="mx-auto inline mr-5" />
           </div>
         </div>
         <div className="mt-2">
@@ -50,16 +50,16 @@ export default function Skills() {
             Learning
           </h3>
           <p className="mb-4">You learn a lot as a programmer and you never stop learning. </p>
-          <div className="mb-5 text-3xl text-slate-500 space-x-5">
-            <FaPython className="mx-auto inline" />
-            <FaHtml5 className="mx-auto inline" />
-            <FaCss3Alt className="mx-auto inline" />
-            <SiJavascript className="mx-auto inline" />
-            <SiJquery className="mx-auto inline" />
-            <FaNodeJs className="mx-auto inline" />
-            <SiMongodb className="mx-auto inline" />
-            <FaReact className="mx-auto inline" />
-            <SiNextdotjs className="mx-auto inline" />
+          <div className="mb-5 text-3xl text-slate-500">
+            <FaPython className="mx-auto inline mr-5" />
+            <FaHtml5 className="mx-auto inline mr-5" />
+            <FaCss3Alt className="mx-auto inline mr-5" />
+            <SiJavascript className="mx-auto inline mr-5" />
+            <SiJquery className="mx-auto inline mr-5" />
+            <FaNodeJs className="mx-auto inline mr-5" />
+            <SiMongodb className="mx-auto inline mr-5" />
+            <FaReact className="mx-auto inline mr-5" />
+            <SiNextdotjs className="mx-auto inline mr-5" />
           </div>
         </div>
       </div>
