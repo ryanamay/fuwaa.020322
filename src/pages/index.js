@@ -10,8 +10,30 @@ import Skills from '../components/Skills';
 import Projects from '../components/Projects';
 import Contact from '../components/Contact';
 import Experience from '../components/Experience';
+import { useEffect } from 'react';
 
 export default function Home() {
+
+useEffect(() => {
+    function reveal() {
+      var reveals = document.querySelectorAll(".reveal");
+    
+      for (var i = 0; i < reveals.length; i++) {
+        var windowHeight = window.innerHeight;
+        var elementTop = reveals[i].getBoundingClientRect().top;
+        var elementVisible = 150;
+    
+        if (elementTop < windowHeight - elementVisible) {
+          reveals[i].classList.add("active");
+        } else {
+          reveals[i].classList.remove("active");
+        }
+      }
+    }
+    
+    window.addEventListener("scroll", reveal);
+
+})
   return (
     <main className="font-Manrope relative">
         <SEO
@@ -25,7 +47,7 @@ export default function Home() {
           <Skills />
           <Projects />
           <Contact />
-          <Footer />
+            <Footer />
     </main>
   )
 }

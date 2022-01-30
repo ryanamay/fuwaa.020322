@@ -87,16 +87,16 @@ export default function Footer() {
             <img className="fill-white inline ml-1" src="vercel.svg" />
           </span>
           <div className="flex flex-row justify-end mt-5 space-x-2">
-            <Link className="" href="">
+            <Link className="" href="mailto:jarielque@gmail.com">
               <AiOutlineMail />
             </Link>
-            <Link className="" href="">
+            <Link className="" href="https://discord.gg/Z8KCyQjY9q">
               <FaDiscord />
             </Link>
-            <Link className="" href="">
+            <Link className="" href="https://www.linkedin.com/in/nafuni/">
               <FaLinkedinIn />
             </Link>
-            <Link className="" href="">
+            <Link className="" href="https://github.com/nfni">
               <FaGithub />
             </Link>
           </div>
