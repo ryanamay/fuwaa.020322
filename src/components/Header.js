@@ -1,8 +1,7 @@
-import { FaPython, FaHtml5, FaCss3Alt, FaNodeJs, FaReact } from 'react-icons/fa';
+import { FaPython, FaHtml5, FaCss3Alt, FaNodeJs, FaReact, FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { SiJavascript, SiJquery, SiMongodb, SiNextdotjs } from 'react-icons/si';
 import { AiOutlineArrowDown, AiOutlineCloudDownload, AiOutlineMail } from 'react-icons/ai';
 import { BsArrowRightShort } from 'react-icons/bs';
-import Banner from '../components/Banner';
 import Link from 'next/link';
 
 export default function Header(props) {
@@ -24,6 +23,14 @@ export default function Header(props) {
                             <SiMongodb className="mx-auto inline mx-1" />
                             <FaReact className="mx-auto inline mx-1" />
                             <SiNextdotjs className="mx-auto inline mx-1" />
+                    </div>
+                    <div className="mb-5 space-x-1 text-2xl">
+                            <Link href="https://www.github.com/nfni">
+                                <FaGithub className="mx-auto inline mx-1 hover:text-red-500" />
+                            </Link>
+                            <Link href="https://www.linkedin.com/in/nafuni">
+                                <FaLinkedinIn className="mx-auto inline mx-1 hover:text-red-500" />
+                            </Link>
                     </div>
                     <div className="block sm:flex sm:flex-row text-black">
                         <Link href="#contact"><button className="m-5 mx-auto sm:mx-2 rounded bg-gradient-to-r hover:from-green-500 hover:to-slate-500 from-green-300 to-slate-300 p-1 px-3 flex items-center">Contact <AiOutlineMail className="ml-2" /></button></Link>
