@@ -14,6 +14,7 @@ export default function Home() {
         <div className="flex flex-row mt-5 justify-center">
           {Projects.map((project) => (
             <Card
+            key={project.id}
               name={project.name}
               description={project.description}
               image={project.image}
