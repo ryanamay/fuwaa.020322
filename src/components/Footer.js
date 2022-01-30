@@ -26,13 +26,18 @@ export default function Footer() {
                   <h1 className="text-1xl font-bold">Directories</h1>
                 </li>
                 <li className="mx-4">
-                  <Link className="text-sm" href="/">
+                  <Link className="text-sm" href="/#header">
                     Home
                   </Link>
                 </li>
                 <li className="mx-4">
                   <Link className="text-sm" href="/projects">
                     Projects
+                  </Link>
+                </li>
+                <li className="mx-4">
+                  <Link className="text-sm" href="/#contact">
+                    Contact
                   </Link>
                 </li>
               </ul>
@@ -43,27 +48,27 @@ export default function Footer() {
                   <h1 className="text-1xl font-bold">Sections</h1>
                 </li>
                 <li className="mx-4">
-                  <Link className="text-sm" href="/">
+                  <Link className="text-sm" href="/#header">
                     Card
                   </Link>
                 </li>
                 <li className="mx-4">
-                  <Link className="text-sm" href="/">
+                  <Link className="text-sm" href="/#about">
                     About
                   </Link>
                 </li>
                 <li className="mx-4">
-                  <Link className="text-sm" href="/projects">
+                  <Link className="text-sm" href="/#skills">
                     Skills
                   </Link>
                 </li>
                 <li className="mx-4">
-                  <Link className="text-sm" href="/">
+                  <Link className="text-sm" href="/#projects">
                     Projects
                   </Link>
                 </li>
                 <li className="mx-4">
-                  <Link className="text-sm" href="/">
+                  <Link className="text-sm" href="/#contact">
                     Contact
                   </Link>
                 </li>

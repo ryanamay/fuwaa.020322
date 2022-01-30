@@ -15,7 +15,7 @@ import { BsArrowRightShort } from "react-icons/bs";
 
 export default function Skills() {
   return (
-    <div className="flex flex-row flex-grow justify-center items-center lg:mx-12 md:mx-0">
+    <div id="skills" className="flex flex-row flex-grow justify-center items-center lg:mx-12 md:mx-0">
       <div className="flex flex-col flex-grow p-12 lg:max-w-5xl md:max-w-none">
         <h1 className="inline text-5xl font-bold text-slate-700 mb-8">
           Skills
