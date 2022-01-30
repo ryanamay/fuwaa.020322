@@ -5,7 +5,8 @@ import {
   FaNodeJs,
   FaReact,
   FaAws,
-  FaGithub
+  FaGithub,
+  FaBootstrap
 } from "react-icons/fa";
 import { SiFlutter, SiJavascript, SiJquery, SiMongodb, SiNextdotjs, SiTailwindcss, SiTerraform, SiSpringboot } from "react-icons/si";
 import { AiOutlineConsoleSql } from 'react-icons/ai';
@@ -48,6 +49,7 @@ export default function Skills() {
             <SiNextdotjs className="mx-auto inline mr-5" />
             <FaGithub className="mx-auto inline mr-5" />
             <SiTailwindcss className="mx-auto inline mr-5" />
+            <FaBootstrap className="mx-auto inline mr-5" />
           </div>
         </div>
         <div className="mt-2">
