@@ -33,7 +33,7 @@ export default function About() {
         <LazyShowRight>
           <h3 className="inline text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-indigo-600 mt-5">Quick Learner</h3>
           <p className="text-2xl justify max-w-prose">
-            Need someone to handle something no one has experience on? I gotcha.
+            Need someone to adapt quickly? I&apos;m your guy.
           </p>
         </LazyShowRight>
       </div>

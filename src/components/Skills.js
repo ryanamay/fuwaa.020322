@@ -30,7 +30,7 @@ export default function Skills() {
           <h3 className="inline text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-indigo-600">
             Proficiency at its finest
           </h3>
-          <p className="mb-4">I deem myself quite boastful of these ya hear me?</p>
+          <p className="mb-4">People come with their greatest strengths, here are mine.</p>
           <div className="mb-5 text-8xl text-slate-500">
               <FaHtml5 className="mx-auto inline mr-5" />
             <FaCss3Alt className="mx-auto inline mr-5" />
