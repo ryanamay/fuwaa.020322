@@ -1,34 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+    <img width="50" src="https://avatars.githubusercontent.com/u/53419401?v=4" alt="Profile Picture">
+    <br> <img src="https://visitor-badge.laobi.icu/badge?page_id=nafunii.nafunii" alt="visitor badge"/>
+    <br> · profile/nafunii ·
+    <br> ꜱᴏꜰᴛᴡᴀʀᴇ ᴅᴇᴠᴇʟᴏᴘᴇʀ
+</p>
 
-## Getting Started
+---
+```
+  🟡 🟢 🔴                                       jari@lavender:~ 
+```
+```css
+[jari@lavender]: ->$ cat ./nafumie/bio.txt
+"student, programmer, hobbyist, gamer. coffee. sleep. repeat"
 
-First, run the development server:
+[jari@lavender]: ->$ ls ./languages/tech_stack/
+./  C++    Python    HTML    CSS    JavaScript    Bootstrap    jQuery    Node.js    ExpressJS    
+REST    GitHub/Git   React.js
 
-```bash
-npm run dev
-# or
-yarn dev
+[jari@lavender]: ->$ cat ./nafumie/status.txt
+#-#-# CURRENTLY ATTENDING: 
+Flutter Development Bootcamp | -
+Junior to Senior Web Development Bootcamp | - 
+
+#-#-# CURRENTLY TAKING:
+IBM Data Science | Course 1/10
+Google UX Design | Course 1/7
+IBM Full Stack D | Course 1/10
+
+[jari@lavender]: ->$ neofetch
+                   -`                    jari@lavender 
+                  .o+`                   ------------- 
+                 `ooo/                   OS: Arch Linux x86_64 
+                `+oooo:                  Host: ASUS TUF Gaming A15 FA506QM_FA50 
+               `+oooooo:                 Kernel: 5.14.3-arch1-1 
+               -+oooooo+:                Uptime: 1 hour, 9 mins 
+             `/:-:++oooo+:               Packages: 823 (pacman) 
+            `/++++/+++++++:              Shell: bash 5.1.8 
+           `/++++++++++++++:             Resolution: 3440x1440 
+          `/+++ooooooooooooo/`           DE: GNOME 40.4 
+         ./ooosssso++osssssso+`          WM: Mutter 
+        .oossssso-````/ossssss+`         WM Theme: WhiteSur-dark 
+       -osssssso.      :ssssssso.        Theme: WhiteSur-dark-solid [GTK2/3] 
+      :osssssss/        osssso+++.       Icons: WhiteSur-dark [GTK2/3] 
+     /ossssssss/        +ssssooo/-       Terminal: gnome-terminal 
+   `/ossssso+/:-        -:/+osssso+-     CPU: AMD Ryzen 7 5800H with Radeon Graphics
+  `+sso+:-`                 `.-/+oso:    GPU: AMD ATI 05:00.0 Cezanne 
+ `++:.                           `-/+/   GPU: NVIDIA GeForce RTX 3060 Mobile /  
+ .`                                 `/   Memory: 2957MiB / 15400MiB 
+
+
+[jari@lavender]: ->$ ## end ##
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
