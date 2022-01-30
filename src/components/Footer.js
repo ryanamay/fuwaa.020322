@@ -81,17 +81,17 @@ export default function Footer() {
             Powered by
             <img className="fill-white inline ml-1" src="vercel.svg" />
           </span>
-          <div className="flex flex-row justify-end mt-5">
-            <Link className="mx-1" href="">
+          <div className="flex flex-row justify-end mt-5 space-x-2">
+            <Link className="" href="">
               <AiOutlineMail />
             </Link>
-            <Link className="mx-0" href="">
+            <Link className="" href="">
               <FaDiscord />
             </Link>
-            <Link className="mx-1" href="">
+            <Link className="" href="">
               <FaLinkedinIn />
             </Link>
-            <Link className="mx-0" href="">
+            <Link className="" href="">
               <FaGithub />
             </Link>
           </div>
