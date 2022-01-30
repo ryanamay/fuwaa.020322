@@ -15,17 +15,7 @@
 
 [jari@lavender]: ->$ ls ./languages/tech_stack/
 ./  C++    Python    HTML    CSS    JavaScript    Bootstrap    jQuery    Node.js    ExpressJS    
-REST    GitHub/Git   React.js
-
-[jari@lavender]: ->$ cat ./nafumie/status.txt
-#-#-# CURRENTLY ATTENDING: 
-Flutter Development Bootcamp | -
-Junior to Senior Web Development Bootcamp | - 
-
-#-#-# CURRENTLY TAKING:
-IBM Data Science | Course 1/10
-Google UX Design | Course 1/7
-IBM Full Stack D | Course 1/10
+REST    GitHub/Git   React.js    Next.js
 
 [jari@lavender]: ->$ neofetch
                    -`                    jari@lavender 
