@@ -9,7 +9,7 @@ export default function Projects() {
 
     return (<div className="flex flex-col flex-grow lg:mx-12 sm:mx-0">
         <div className="flex flex-2 flex-col px-12 justify-center text-center item-center">
-            <div className="flex flex-col px-12 pb-12 justify-center">
+            <div className="flex flex-col sm:px-12 pb-12 justify-center">
                 <h1 className="mt-20 text-4xl font-bold text-5xl text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-indigo-600">Projects</h1>
                 <h3>Some of the best.</h3>
                 <div className="block mx-auto md:flex flex-row justify-center m-5 ">
