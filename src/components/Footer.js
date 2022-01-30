@@ -19,7 +19,7 @@ export default function Footer() {
           </h1>
           <h3>turning dreams into reality.</h3>
         </div>
-        <div className="flex items-start">
+        <div className="items-start hidden md:flex">
             <div className="inline py-10">
               <ul className="block-flex">
                 <li className="mx-4">

@@ -1,10 +1,10 @@
 export default function Experience() {
   return (
     <div className="flex flex-col text-center justify-center">
-      <h1 className="mt-20 text-4xl font-bold text-5xl text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-indigo-600">
+      <h1 className="mx-8 mt-20 text-4xl font-bold text-5xl text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-indigo-600">
         Let&apos;s turn your dream to a reality.
       </h1>
-      <h3 className="text-2xl font-">Let&apos;s get in touch.</h3>
+      <h3 className="text-2xl font-bold mt-4">Let&apos;s get in touch.</h3>
       <div className="flex flex-col flex-grow justify-center p-5 rounded mb-32 mt-10 bg-gradient-to-r from-red-600 to-indigo-600 mx-auto text-left">
         <form action="">
           <div className="flex flex-row space-x-2">

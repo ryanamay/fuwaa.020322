@@ -12,7 +12,7 @@ export default function Projects() {
             <div className="flex flex-col px-12 pb-12 justify-center">
                 <h1 className="mt-20 text-4xl font-bold text-5xl text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-indigo-600">Projects</h1>
                 <h3>Some of the best.</h3>
-                <div className="flex flex-row justify-center m-5 ">
+                <div className="block mx-auto md:flex flex-row justify-center m-5 ">
                     {filteredprojects.map((project) => (
                         <Card
                         key={project.id}

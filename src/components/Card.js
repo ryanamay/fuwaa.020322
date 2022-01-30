@@ -2,7 +2,7 @@ import { FaGithub } from "react-icons/fa"
 
 export default function Card(props) {
         return (
-            <div className="rounded bg-slate-500 mx-2 max-w-xs" style={{backgroundImage: "linear-gradient(180deg, transparent, #000), url("+props.image+")", backgroundSize: '100% 100%)'}}>
+            <div className="rounded bg-slate-500 m-3 max-w-xs" style={{backgroundImage: "linear-gradient(180deg, transparent, #000), url("+props.image+")", backgroundSize: '100% 100%)'}}>
                 <div className="pt-20 pl-5 pr-5 pb-5">
                     <h1 className="text-2xl font-bold text-white">{props.name}</h1>
                     <h1 className="text-sm font-light text-white mb-2">{props.tech}</h1>
