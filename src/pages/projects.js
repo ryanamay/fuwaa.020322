@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 export default function Home() {
   return (
     <main className="">
-      <SEO title="Home" />
+      <SEO title="Project" />
       <Navbar />
       <div className="min-h-screen">
         <h1 className="pt-20 text-center text-4xl font-bold">Projects</h1>
