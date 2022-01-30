@@ -1,5 +1,6 @@
 
 import Link from 'next/link';
+import { Link as LinkScroll } from 'react-scroll';
 import {
   FaRegCopyright,
   FaDiscord,
@@ -26,18 +27,18 @@ export default function Footer() {
                   <h1 className="text-1xl font-bold">Directories</h1>
                 </li>
                 <li className="mx-4">
-                  <Link className="text-sm" href="/#header">
-                    Home
+                  <Link className="text-sm" href="/">
+                    <a className="hover:text-red-500">Home</a>
                   </Link>
                 </li>
                 <li className="mx-4">
-                  <Link className="text-sm" href="/projects">
-                    Projects
+                  <Link className="text-sm hover:text-red-500" href="/projects">
+                     <a className="hover:text-red-500">Projects</a>
                   </Link>
                 </li>
                 <li className="mx-4">
-                  <Link className="text-sm" href="/#contact">
-                    Contact
+                  <Link className="text-sm hover:text-red-500" href="/#contact">
+                   <a className="hover:text-red-500">Contact</a>
                   </Link>
                 </li>
               </ul>
@@ -48,29 +49,29 @@ export default function Footer() {
                   <h1 className="text-1xl font-bold">Sections</h1>
                 </li>
                 <li className="mx-4">
-                  <Link className="text-sm" href="/#header">
+                  <LinkScroll className="text-sm hover:text-red-500" to="header" smooth="true">
                     Card
-                  </Link>
+                  </LinkScroll>
                 </li>
                 <li className="mx-4">
-                  <Link className="text-sm" href="/#about">
+                  <LinkScroll className="text-sm hover:text-red-500" to="about" smooth="true">
                     About
-                  </Link>
+                  </LinkScroll>
                 </li>
                 <li className="mx-4">
-                  <Link className="text-sm" href="/#skills">
+                  <LinkScroll className="text-sm hover:text-red-500" to="skills" smooth="true">
                     Skills
-                  </Link>
+                  </LinkScroll>
                 </li>
                 <li className="mx-4">
-                  <Link className="text-sm" href="/#projects">
+                  <LinkScroll className="text-sm hover:text-red-500" to="projects" smooth="true">
                     Projects
-                  </Link>
+                  </LinkScroll>
                 </li>
                 <li className="mx-4">
-                  <Link className="text-sm" href="/#contact">
+                  <LinkScroll className="text-sm hover:text-red-500" to="contact" smooth="true">
                     Contact
-                  </Link>
+                  </LinkScroll>
                 </li>
               </ul>
             </div>
@@ -87,18 +88,18 @@ export default function Footer() {
             <img className="fill-white inline ml-1" src="vercel.svg" />
           </span>
           <div className="flex flex-row justify-end mt-5 space-x-2">
-            <Link className="" href="mailto:jarielque@gmail.com">
+            <a className="hover:text-red-500" href="mailto:jarielque@gmail.com">
               <AiOutlineMail />
-            </Link>
-            <Link className="" href="https://discord.gg/Z8KCyQjY9q">
+            </a>
+            <a className="hover:text-red-500" href="https://discord.gg/Z8KCyQjY9q">
               <FaDiscord />
-            </Link>
-            <Link className="" href="https://www.linkedin.com/in/nafuni/">
+            </a>
+            <a className="hover:text-red-500" href="https://www.linkedin.com/in/nafuni/">
               <FaLinkedinIn />
-            </Link>
-            <Link className="" href="https://github.com/nfni">
+            </a>
+            <a className="hover:text-red-500" href="https://github.com/nfni">
               <FaGithub />
-            </Link>
+            </a>
           </div>
         </div>
       </div>

@@ -2,6 +2,7 @@ import { FaPython, FaHtml5, FaCss3Alt, FaNodeJs, FaReact, FaGithub, FaLinkedinIn
 import { SiJavascript, SiJquery, SiMongodb, SiNextdotjs } from 'react-icons/si';
 import { AiOutlineArrowDown, AiOutlineCloudDownload, AiOutlineMail } from 'react-icons/ai';
 import { BsArrowRightShort } from 'react-icons/bs';
+import { Link as LinkScroll } from 'react-scroll';
 import Link from 'next/link';
 
 export default function Header(props) {
@@ -25,20 +26,22 @@ export default function Header(props) {
                             <SiNextdotjs className="mx-auto inline mx-1" />
                     </div>
                     <div className="mb-5 space-x-1 text-2xl">
-                            <Link href="https://www.github.com/nfni">
+                            <a href="https://www.github.com/nfni" target="_blank">
                                 <FaGithub className="mx-auto inline mx-1 hover:text-red-500" />
-                            </Link>
-                            <Link href="https://www.linkedin.com/in/nafuni">
+                            </a>
+                            <a href="https://www.linkedin.com/in/nafuni" target="_blank">
                                 <FaLinkedinIn className="mx-auto inline mx-1 hover:text-red-500" />
-                            </Link>
+                            </a>
                     </div>
                     <div className="block sm:flex sm:flex-row text-black">
-                        <Link href="#contact"><button className="m-5 mx-auto sm:mx-2 rounded bg-gradient-to-r hover:from-green-500 hover:to-slate-500 from-green-300 to-slate-300 p-1 px-3 flex items-center">Contact <AiOutlineMail className="ml-2" /></button></Link>
-                        <Link href="/projects"><button className="m-5 mx-auto sm:mx-2 rounded bg-gradient-to-r hover:from-blue-500 hover:to-slate-500 from-blue-300 to-slate-300 p-1 px-3 flex items-center">Projects <BsArrowRightShort className="ml-2" /></button></Link>
-                        <Link href="https://drive.google.com/file/d/1ZgiYO9pdoH79PDq-Nc0DgCQgZxTo_K__/view?usp=sharing"><button href="/projects" className="m-5 mx-auto sm:mx-2 rounded bg-gradient-to-r hover:from-red-500 hover:to-slate-500 from-red-300 to-slate-300 p-1 px-3 flex items-center">Resume <AiOutlineCloudDownload className="ml-2" /></button></Link>
+                        <LinkScroll to="contact" smooth="true"><button className="m-5 mx-auto sm:mx-2 rounded bg-gradient-to-r hover:from-green-500 hover:to-slate-500 from-green-300 to-slate-300 p-1 px-3 flex items-center">Contact <AiOutlineMail className="ml-2" /></button></LinkScroll>
+                        <Link href="/projects" smooth><button className="m-5 mx-auto sm:mx-2 rounded bg-gradient-to-r hover:from-blue-500 hover:to-slate-500 from-blue-300 to-slate-300 p-1 px-3 flex items-center">Projects <BsArrowRightShort className="ml-2" /></button></Link>
+                        <a href="https://drive.google.com/file/d/1ZgiYO9pdoH79PDq-Nc0DgCQgZxTo_K__/view?usp=sharing" target="_blank"><button href="/projects" className="m-5 mx-auto sm:mx-2 rounded bg-gradient-to-r hover:from-red-500 hover:to-slate-500 from-red-300 to-slate-300 p-1 px-3 flex items-center">Resume <AiOutlineCloudDownload className="ml-2" /></button></a>
                     </div>
                 </div>
-                <div className="w-full absolute bottom-10 text-center text-white">Learn More</div>
+                <LinkScroll className="w-full absolute bottom-10 text-center text-white hover:text-red-500" to="about" smooth="true">
+                    Learn More
+                  </LinkScroll>
                     <div className="w-full absolute bottom-8 text-center text-white">
                         <AiOutlineArrowDown className="absolute w-full" />
                     </div>

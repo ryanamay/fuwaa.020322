@@ -1,4 +1,5 @@
-import Link from 'next/link'; 
+import Link from 'next/link';
+
 export default function Navbar() {
   return (
     <nav className="-z-1 w-full top-0 fixed bg-white">
@@ -24,7 +25,7 @@ export default function Navbar() {
         <div className=" mr-auto inline-flex">
           <ul className="inline-flex">
             <li>
-              <Link href="/#contact"><button className="rounded bg-slate-500 p-1 px-3 mx-1 text-white">Contact</button></Link>
+              <Link href="/#contact"><button className="rounded bg-slate-500 hover:bg-slate-700 p-1 px-3 mx-1 text-white">Contact</button></Link>
             </li>
           </ul>
         </div>

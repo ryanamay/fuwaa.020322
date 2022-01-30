@@ -36,7 +36,7 @@ export default function Skills() {
             With experience
           </h3>
           <p className="mb-4">
-            In addition to the above, I work or used to work on these languages and frameworks.
+            In addition to the above, I work or used to work with these languages and frameworks.
           </p>
           <div className="mb-5 text-5xl text-slate-500">
             <FaPython className="mx-auto inline mr-5" />

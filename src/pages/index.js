@@ -7,6 +7,7 @@ import Skills from '../components/Skills';
 import Projects from '../components/Projects';
 import Contact from '../components/Contact';
 import { useEffect } from 'react';
+import Script from 'next/script';
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
           <Projects />
           <Contact />
             <Footer />
+        <Script src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"/>
     </main>
   )
 }
