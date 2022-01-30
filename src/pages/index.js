@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import SEO from '../components/SEO';
 import Banner from '../components/Banner';
+import FadeIn from 'react-fade-in';
 import Navbar from '../components/Navbar';
 import Header from '../components/Header';
 import About from '../components/About';
@@ -16,15 +17,15 @@ export default function Home() {
         <SEO
           title="Home"
          />
-        <Navbar />
-        <Header 
-          image="/bg.png"
-        />
-        <About />
-        <Skills />
-        <Projects />
-        <Contact />
-        <Footer />
+          <Navbar />
+          <Header
+            image="/bg.png"
+          />
+          <About />
+          <Skills />
+          <Projects />
+          <Contact />
+          <Footer />
     </main>
   )
 }
