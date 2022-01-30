@@ -7,15 +7,15 @@ export default function Experience() {
       <h3 className="text-2xl font-bold mt-4">Let&apos;s get in touch.</h3>
       <div className="flex flex-col flex-grow justify-center p-5 rounded mb-32 mt-10 bg-gradient-to-r from-red-600 to-indigo-600 mx-auto text-left">
         <form action="">
-          <div className="flex flex-row space-x-2">
-            <label className="text-white" htmlFor="">
+          <div className="flex flex-col sm:flex-row sm:space-x-2">
+            <label className="text-white mt-2" htmlFor="">
               Your Name:
               <input
                 className="block rounded bg-white text-black mt-1"
                 type="text"
               />
             </label>
-            <label className="text-white" htmlFor="">
+            <label className="text-white mt-2" htmlFor="">
               Your Email:
               <input
                 className="block rounded bg-white text-black mt-1"
@@ -27,10 +27,8 @@ export default function Experience() {
             <label className="text-white" htmlFor="">
               Your Message:
               <textarea
-                className="block rounded bg-white text-black mt-1"
+                className="block rounded bg-white text-black mt-1 w-full h-32"
                 type="textarea"
-                rows="5"
-                cols="42"
               />
             </label>
           </div>
