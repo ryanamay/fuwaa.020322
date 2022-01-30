@@ -11,7 +11,7 @@ export default function Home() {
       <Navbar />
       <div className="min-h-screen">
         <h1 className="pt-20 text-center text-4xl font-bold">Projects</h1>
-        <h3 className="pt-2 text-center text-1xl">Here's all the projects I have done.</h3>
+        <h3 className="pt-2 text-center text-1xl">Here&apos;s all the projects I have done.</h3>
         <div className="block md:flex flex-row mt-5 justify-center">
           {Projects.map((project) => (
             <Card
