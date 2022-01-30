@@ -1,3 +1,5 @@
+
+import Link from 'next/link';
 import {
   FaRegCopyright,
   FaDiscord,
@@ -24,14 +26,14 @@ export default function Footer() {
                   <h1 className="text-1xl font-bold">Directories</h1>
                 </li>
                 <li className="mx-4">
-                  <a className="text-sm" href="/">
+                  <Link className="text-sm" href="/">
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li className="mx-4">
-                  <a className="text-sm" href="/projects">
+                  <Link className="text-sm" href="/projects">
                     Projects
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -41,29 +43,29 @@ export default function Footer() {
                   <h1 className="text-1xl font-bold">Sections</h1>
                 </li>
                 <li className="mx-4">
-                  <a className="text-sm" href="/">
+                  <Link className="text-sm" href="/">
                     Card
-                  </a>
+                  </Link>
                 </li>
                 <li className="mx-4">
-                  <a className="text-sm" href="/">
+                  <Link className="text-sm" href="/">
                     About
-                  </a>
+                  </Link>
                 </li>
                 <li className="mx-4">
-                  <a className="text-sm" href="/projects">
+                  <Link className="text-sm" href="/projects">
                     Skills
-                  </a>
+                  </Link>
                 </li>
                 <li className="mx-4">
-                  <a className="text-sm" href="/">
+                  <Link className="text-sm" href="/">
                     Projects
-                  </a>
+                  </Link>
                 </li>
                 <li className="mx-4">
-                  <a className="text-sm" href="/">
+                  <Link className="text-sm" href="/">
                     Contact
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -80,18 +82,18 @@ export default function Footer() {
             <img className="fill-white inline ml-1" src="vercel.svg" />
           </span>
           <div className="flex flex-row justify-end mt-5">
-            <a className="mx-1" href="">
+            <Link className="mx-1" href="">
               <AiOutlineMail />
-            </a>
-            <a className="mx-0" href="">
+            </Link>
+            <Link className="mx-0" href="">
               <FaDiscord />
-            </a>
-            <a className="mx-1" href="">
+            </Link>
+            <Link className="mx-1" href="">
               <FaLinkedinIn />
-            </a>
-            <a className="mx-0" href="">
+            </Link>
+            <Link className="mx-0" href="">
               <FaGithub />
-            </a>
+            </Link>
           </div>
         </div>
       </div>

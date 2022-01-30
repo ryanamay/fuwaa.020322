@@ -1,11 +1,12 @@
+import Link from 'next/link'; 
 export default function Navbar() {
   return (
     <nav className="-z-1 w-full top-0 fixed bg-gradient-to-r from-indigo-500 to-blue-500">
       <div className="flex justify-center items-center py-3">
         <div className="mr-auto ml-auto inline-flex">
-          <a href="#" className="navbar-brand">
+          <Link href="#" className="navbar-brand">
             <img src="favicon.ico" width="30" alt="" />
-          </a>
+          </Link>
         </div>
         <div className="inline-flex">
           <button className="rounded bg-red-600 p-1 hidden">Menu</button>
@@ -13,10 +14,10 @@ export default function Navbar() {
         <div className="justify-center inline-flex text-white">
           <ul className="inline-flex">
             <li className="mx-4">
-              <a href="/">Home</a>
+              <Link href="/">Home</Link>
             </li>
             <li className="mx-4">
-              <a href="/projects">Projects</a>
+              <Link href="/projects">Projects</Link>
             </li>
           </ul>
         </div>
