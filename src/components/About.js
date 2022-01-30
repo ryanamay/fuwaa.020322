@@ -3,7 +3,7 @@ export default function About() {
     <div className="flex flex-row flex-grow justify-center pt-32 lg:mx-12 md:mx-0">
       <div className="flex flex-col flex-grow pl-12 py-12 max-w-5xl">
         <h1 className="inline text-5xl font-bold text-slate-700 mb-8">About</h1>
-        <h3 className="inline text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-indigo-600">Proficiency at it's finest</h3>
+        <h3 className="inline text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-indigo-600">Proficiency at it&apos;s finest</h3>
         <p className="text-2xl justify max-w-prose">
           I am a full stack developer with a strong understanding of HTML, CSS and JavaScript
         </p>
