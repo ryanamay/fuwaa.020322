@@ -1,6 +1,7 @@
 import projects from "/public/projects.json";
 import Card from "../components/Card";
 import { BsArrowRightShort } from "react-icons/bs";
+import Link from 'next/link';
 
 export default function Projects() {
     let filteredprojects = projects.filter((project) => {
@@ -25,7 +26,7 @@ export default function Projects() {
                         />
                     ))}
                 </div>
-                <button href="" className="rounded hover:bg-blue-500 bg-blue-300 p-1 px-3 mx-auto flex items-center">See All Projects <BsArrowRightShort className="ml-2" /></button>
+                <Link href="/projects"><button className="rounded hover:bg-blue-500 bg-blue-300 p-1 px-3 mx-auto flex items-center">See All Projects <BsArrowRightShort className="ml-2" /></button></Link>
             </div>
         </div>
       </div>)

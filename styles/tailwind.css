@@ -995,6 +995,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(239 68 68 / 0));
 }
 
+.from-orange-500{
+  --tw-gradient-from: #f97316;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(249 115 22 / 0));
+}
+
 .to-blue-500{
   --tw-gradient-to: #3b82f6;
 }
@@ -1027,6 +1032,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-gradient-to: #f97316;
 }
 
+.to-red-500{
+  --tw-gradient-to: #ef4444;
+}
+
 .bg-contain{
   background-size: contain;
 }
@@ -1046,6 +1055,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-center{
   background-position: center;
+}
+
+.bg-no-repeat{
+  background-repeat: no-repeat;
 }
 
 .fill-white{
@@ -1133,6 +1146,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .px-1{
   padding-left: 0.25rem;
   padding-right: 0.25rem;
+}
+
+.py-1{
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 }
 
 .pt-20{
@@ -1298,6 +1316,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   opacity: 0.6;
 }
 
+.opacity-80{
+  opacity: 0.8;
+}
+
 .outline{
   outline-style: solid;
 }
@@ -1389,6 +1411,16 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-right: 0.5rem;
   }
 
+  .sm\:mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .sm\:mx-32{
+    margin-left: 8rem;
+    margin-right: 8rem;
+  }
+
   .sm\:block{
     display: block;
   }
@@ -1399,6 +1431,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .sm\:hidden{
     display: none;
+  }
+
+  .sm\:w-32{
+    width: 8rem;
   }
 
   .sm\:max-w-none{

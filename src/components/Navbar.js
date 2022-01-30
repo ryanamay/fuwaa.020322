@@ -1,7 +1,7 @@
 import Link from 'next/link'; 
 export default function Navbar() {
   return (
-    <nav className="-z-1 w-full top-0 fixed bg-gradient-to-r from-indigo-500 to-blue-500">
+    <nav className="-z-1 w-full top-0 fixed bg-white">
       <div className="flex justify-center items-center py-3">
         <div className="mr-auto ml-auto inline-flex">
           <Link href="#" className="navbar-brand">
@@ -24,7 +24,7 @@ export default function Navbar() {
         <div className=" mr-auto inline-flex">
           <ul className="inline-flex">
             <li>
-              <button className="rounded bg-slate-500 p-1 px-3 mx-1 text-white">Contact</button>
+              <Link href="/#contact"><button className="rounded bg-slate-500 p-1 px-3 mx-1 text-white">Contact</button></Link>
             </li>
           </ul>
         </div>

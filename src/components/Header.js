@@ -3,6 +3,7 @@ import { SiJavascript, SiJquery, SiMongodb, SiNextdotjs } from 'react-icons/si';
 import { AiOutlineArrowDown, AiOutlineCloudDownload, AiOutlineMail } from 'react-icons/ai';
 import { BsArrowRightShort } from 'react-icons/bs';
 import Banner from '../components/Banner';
+import Link from 'next/link';
 
 export default function Header(props) {
     return(
@@ -25,8 +26,8 @@ export default function Header(props) {
                             <SiNextdotjs className="mx-auto inline mx-1" />
                     </div>
                     <div className="block sm:flex sm:flex-row text-black">
-                        <button className="m-5 mx-auto sm:mx-2 rounded bg-gradient-to-r hover:from-green-500 hover:to-slate-500 from-green-300 to-slate-300 p-1 px-3 flex items-center">Contact <AiOutlineMail className="ml-2" /></button>
-                        <button href="/projects" className="m-5 mx-auto sm:mx-2 rounded bg-gradient-to-r hover:from-blue-500 hover:to-slate-500 from-blue-300 to-slate-300 p-1 px-3 flex items-center">Projects <BsArrowRightShort className="ml-2" /></button>
+                        <Link href="#contact"><button className="m-5 mx-auto sm:mx-2 rounded bg-gradient-to-r hover:from-green-500 hover:to-slate-500 from-green-300 to-slate-300 p-1 px-3 flex items-center">Contact <AiOutlineMail className="ml-2" /></button></Link>
+                        <Link href="/projects"><button className="m-5 mx-auto sm:mx-2 rounded bg-gradient-to-r hover:from-blue-500 hover:to-slate-500 from-blue-300 to-slate-300 p-1 px-3 flex items-center">Projects <BsArrowRightShort className="ml-2" /></button></Link>
                         <button href="/projects" className="m-5 mx-auto sm:mx-2 rounded bg-gradient-to-r hover:from-red-500 hover:to-slate-500 from-red-300 to-slate-300 p-1 px-3 flex items-center">Resume <AiOutlineCloudDownload className="ml-2" /></button>
                     </div>
                 </div>
