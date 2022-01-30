@@ -22,7 +22,7 @@ export default function Skills() {
         </h1>
         <div className="mb-5">
           <h3 className="inline text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-indigo-600">
-            Proficiency at it's finest
+            Proficiency at it&apos;s finest
           </h3>
           <p className="mb-4">I deem myself quite boastful of these ya hear me?</p>
           <div className="mb-5 text-8xl text-slate-500">
@@ -55,7 +55,7 @@ export default function Skills() {
             Learning
           </h3>
           <p className="mb-4">
-            While I learn stuff above me, I'm also learning the following:{" "}
+            While I learn stuff above me, I&apos;m also learning the following:{" "}
           </p>
           <div className="mb-5 text-3xl text-slate-500">
             <SiTerraform className="mx-auto inline mr-5" />

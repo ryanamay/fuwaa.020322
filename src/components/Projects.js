@@ -14,7 +14,7 @@ export default function Projects() {
             <div className="flex flex-col sm:px-12 pb-12 justify-center">
                 <SiGithubsponsors className="mt-10 mb-5 mx-auto text-red-600 text-3xl" />
                 <h1 className=" text-4xl font-bold text-5xl text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-indigo-600">Featured Projects</h1>
-                <h3>I'm really proud of these, you should be too!</h3>
+                <h3>I&apos;m really proud of these, you should be too!</h3>
                 <div className="block mx-auto md:flex flex-row justify-center m-5 ">
                     {filteredprojects.map((project) => (
                         <Card
