@@ -1,4 +1,3 @@
-import Image from "next/image";
 import SEO from "../components/SEO";
 import Navbar from "../components/Navbar";
 import Projects from "/public/projects.json";
@@ -10,7 +9,7 @@ export default function Home() {
     <main className="">
       <SEO title="Home" />
       <Navbar />
-      <div className="min-h-screen relative">
+      <div className="min-h-screen">
         <h1 className="pt-20 text-center text-4xl font-bold">Projects</h1>
         <div className="flex flex-row mt-5 justify-center">
             {Projects.map((project) => (

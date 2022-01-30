@@ -1,4 +1,4 @@
-import { FaRegCopyright, FaDiscord, FaLinkedinIn } from 'react-icons/fa';
+import { FaRegCopyright, FaDiscord, FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import { AiOutlineMail } from 'react-icons/ai';
 
 export default function Footer() {
@@ -48,6 +48,7 @@ export default function Footer() {
                 <a className="mx-1" href=""><AiOutlineMail /></a>
                 <a className="mx-0" href=""><FaDiscord /></a>
                 <a className="mx-1" href=""><FaLinkedinIn /></a>
+                <a className="mx-0" href=""><FaGithub /></a>
                 </div>
             </div>
             </div>
