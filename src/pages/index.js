@@ -13,7 +13,7 @@ import Experience from '../components/Experience';
 
 export default function Home() {
   return (
-    <main className="font-Manrope">
+    <main className="font-Manrope relative">
         <SEO
           title="Home"
          />

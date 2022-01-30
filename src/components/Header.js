@@ -2,11 +2,13 @@ import { FaPython, FaHtml5, FaCss3Alt, FaNodeJs, FaReact } from 'react-icons/fa'
 import { SiJavascript, SiJquery, SiMongodb, SiNextdotjs } from 'react-icons/si';
 import { AiOutlineArrowDown, AiOutlineCloudDownload, AiOutlineMail } from 'react-icons/ai';
 import { BsArrowRightShort } from 'react-icons/bs';
+import Banner from '../components/Banner';
 
 export default function Header(props) {
     return(
         <header>
             <div className="flex flex-row min-h-screen justify-center bg-cover bg-center items-center relative" style={{backgroundImage: "url("+props.image+")", backgroundSize: '100% 100%)'}}>
+                <Banner />
                 <div className="mr-auto ml-auto justify-center items-center text-center text-white">
                     <img src="/me.png" width="200" height="200" className="ml-auto mr-auto rounded-full outline outline-offset-2 outline-blue-500 mb-3"/>
                     <h1 className="text-4xl font-semibold">Jariel Que</h1>
