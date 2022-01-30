@@ -15,7 +15,9 @@ export default function Home() {
           title="Home"
          />
         <Navbar />
-        <Header />
+        <Header 
+          image="/bg.png"
+        />
         <About />
         <Skills />
         <Projects />

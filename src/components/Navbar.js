@@ -10,7 +10,7 @@ export default function Navbar() {
         <div className="inline-flex">
           <button className="rounded bg-red-600 p-1 hidden">Menu</button>
         </div>
-        <div className="justify-center inline-flex">
+        <div className="justify-center inline-flex text-white">
           <ul className="inline-flex">
             <li className="mx-4">
               <a href="/">Home</a>

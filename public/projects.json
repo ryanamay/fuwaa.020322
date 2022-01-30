@@ -1,13 +1,24 @@
 [{
     "id": 0,
+    "name": "nafu",
+    "description": "This website is a project itself, showcasing everything about me.",
+    "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fnewnation.sg%2Fwp-content%2Fuploads%2Frandom-pic-internet-08.jpg&f=1&nofb=1",
+    "link": "https://nafu.me/",
+    "source": "",
+    "tech": "HTML, CSS, JS, React, Next"
+},
+    {
+    "id": 1,
     "name": "Gitccentify",
     "description": "Gitccentify is a tool to change your GitHub's accent color",
     "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fnewnation.sg%2Fwp-content%2Fuploads%2Frandom-pic-internet-08.jpg&f=1&nofb=1",
-    "link": "https://github.com/nafunii/gitccentify/"
+    "link": "https://github.com/nafunii/gitccentify/",
+    "source": "https://github.com/nafunii/gitccentify/",
+    "tech": "HTML, CSS, Javascript, Chrome Extension"
 },
 {   
-    "id": 1,
+    "id": 2,
     "name": "DevKinetics",
-    "description": "DevKinetics is a tool to help you find the best developers in your area"
+    "description": "-"
 }
 ]

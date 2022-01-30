@@ -12,14 +12,16 @@ export default function Home() {
       <div className="min-h-screen">
         <h1 className="pt-20 text-center text-4xl font-bold">Projects</h1>
         <div className="flex flex-row mt-5 justify-center">
-            {Projects.map((project) => (
-                <Card
-                  name={project.name}
-                  description={project.description}
-                  image={project.image}
-                  link={project.link}
-                />
-            ))}
+          {Projects.map((project) => (
+            <Card
+              name={project.name}
+              description={project.description}
+              image={project.image}
+              link={project.link}
+              source={project.source}
+              tech={project.tech}
+            />
+          ))}
         </div>
       </div>
       <Footer />
