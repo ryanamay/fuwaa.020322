@@ -88,16 +88,16 @@ export default function Footer() {
             <img className="fill-white inline ml-1" src="vercel.svg" />
           </span>
           <div className="flex flex-row justify-end mt-5 space-x-2">
-            <a className="hover:text-red-500" href="mailto:jarielque@gmail.com">
+            <a className="hover:text-red-500" href="mailto:jarielque@gmail.com"  target="_blank">
               <AiOutlineMail />
             </a>
-            <a className="hover:text-red-500" href="https://discord.gg/Z8KCyQjY9q">
+            <a className="hover:text-red-500" href="https://discord.gg/Z8KCyQjY9q" target="_blank">
               <FaDiscord />
             </a>
-            <a className="hover:text-red-500" href="https://www.linkedin.com/in/nafuni/">
+            <a className="hover:text-red-500" href="https://www.linkedin.com/in/nafuni/" target="_blank">
               <FaLinkedinIn />
             </a>
-            <a className="hover:text-red-500" href="https://github.com/nfni">
+            <a className="hover:text-red-500" href="https://github.com/nfni" target="_blank">
               <FaGithub />
             </a>
           </div>
