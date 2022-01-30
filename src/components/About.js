@@ -5,7 +5,7 @@ export default function About() {
         <h1 className="inline text-5xl font-bold text-slate-700 mb-8">About</h1>
         <h3 className="inline text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-indigo-600">Hey hey!</h3>
         <p className="text-2xl justify max-w-prose">
-         My name is Jariel and I&apos;m a full-time student, full-time intern typa&apos;s guy. Need something? Contact me and we&apos;ll talk it out.
+         My name is Jariel and I&apos;m a full-time student, full-time full-stack developer typa&apos; guy. Need something? Contact me and we&apos;ll talk it out.
         </p>
 
         <h3 className="inline text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-slate-400 to-slate-800 mt-10">Consider me if you want someone who is</h3>
