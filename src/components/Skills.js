@@ -22,7 +22,7 @@ export default function Skills() {
         </h1>
         <div className="mb-5">
           <h3 className="inline text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-indigo-600">
-            Proficiency at it&apos;s finest
+            Proficiency at its finest
           </h3>
           <p className="mb-4">I deem myself quite boastful of these ya hear me?</p>
           <div className="mb-5 text-8xl text-slate-500">
