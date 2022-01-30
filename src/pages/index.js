@@ -16,9 +16,7 @@ export default function Home() {
       <SEO title="Home" />
       <Navbar />
       <Header image="/bg.png" />
-      <LazyShow>
         <About />
-      </LazyShow>
       <LazyShow>
         <Skills />
       </LazyShow>
