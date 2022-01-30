@@ -28,7 +28,7 @@ export default function Header(props) {
                     <div className="block sm:flex sm:flex-row text-black">
                         <Link href="#contact"><button className="m-5 mx-auto sm:mx-2 rounded bg-gradient-to-r hover:from-green-500 hover:to-slate-500 from-green-300 to-slate-300 p-1 px-3 flex items-center">Contact <AiOutlineMail className="ml-2" /></button></Link>
                         <Link href="/projects"><button className="m-5 mx-auto sm:mx-2 rounded bg-gradient-to-r hover:from-blue-500 hover:to-slate-500 from-blue-300 to-slate-300 p-1 px-3 flex items-center">Projects <BsArrowRightShort className="ml-2" /></button></Link>
-                        <button href="/projects" className="m-5 mx-auto sm:mx-2 rounded bg-gradient-to-r hover:from-red-500 hover:to-slate-500 from-red-300 to-slate-300 p-1 px-3 flex items-center">Resume <AiOutlineCloudDownload className="ml-2" /></button>
+                        <Link href="https://drive.google.com/file/d/1ZgiYO9pdoH79PDq-Nc0DgCQgZxTo_K__/view?usp=sharing"><button href="/projects" className="m-5 mx-auto sm:mx-2 rounded bg-gradient-to-r hover:from-red-500 hover:to-slate-500 from-red-300 to-slate-300 p-1 px-3 flex items-center">Resume <AiOutlineCloudDownload className="ml-2" /></button></Link>
                     </div>
                 </div>
                 <div className="w-full absolute bottom-10 text-center text-white">Learn More</div>
