@@ -24,10 +24,10 @@ export default function Header(props) {
                             <FaReact className="mx-auto inline mx-1" />
                             <SiNextdotjs className="mx-auto inline mx-1" />
                     </div>
-                    <div className="flex flex-row text-black">
-                        <button className="rounded bg-gradient-to-r hover:from-green-500 hover:to-slate-500 from-green-300 to-slate-300 p-1 px-3 flex items-center">Contact <AiOutlineMail className="ml-2" /></button>
-                        <button href="/projects" className="rounded bg-gradient-to-r hover:from-blue-500 hover:to-slate-500 from-blue-300 to-slate-300 p-1 px-3 ml-5 flex items-center">Projects <BsArrowRightShort className="ml-2" /></button>
-                        <button href="/projects" className="rounded bg-gradient-to-r hover:from-red-500 hover:to-slate-500 from-red-300 to-slate-300 p-1 px-3 ml-5 flex items-center">Resume <AiOutlineCloudDownload className="ml-2" /></button>
+                    <div className="block sm:flex sm:flex-row text-black">
+                        <button className="m-5 mx-auto sm:mx-2 rounded bg-gradient-to-r hover:from-green-500 hover:to-slate-500 from-green-300 to-slate-300 p-1 px-3 flex items-center">Contact <AiOutlineMail className="ml-2" /></button>
+                        <button href="/projects" className="m-5 mx-auto sm:mx-2 rounded bg-gradient-to-r hover:from-blue-500 hover:to-slate-500 from-blue-300 to-slate-300 p-1 px-3 flex items-center">Projects <BsArrowRightShort className="ml-2" /></button>
+                        <button href="/projects" className="m-5 mx-auto sm:mx-2 rounded bg-gradient-to-r hover:from-red-500 hover:to-slate-500 from-red-300 to-slate-300 p-1 px-3 flex items-center">Resume <AiOutlineCloudDownload className="ml-2" /></button>
                     </div>
                 </div>
                 <div className="w-full absolute bottom-10 text-center text-white">Learn More</div>
