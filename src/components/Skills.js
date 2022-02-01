@@ -78,7 +78,7 @@ export default function Skills() {
         </div>
       </div>
       <div className="hidden flex-col pl-12 pr-12 justify-center item-center lg:flex sm:hidden">
-        <img src="code.png" width="500" alt="" />
+        <img className="rounded-3xl" src="code.png" width="500" alt="" />
       </div>
     </div>
   );

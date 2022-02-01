@@ -611,10 +611,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 1.25rem;
 }
 
-.mt-0{
-  margin-top: 0px;
-}
-
 .block{
   display: block;
 }
@@ -709,6 +705,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .rounded-full{
   border-radius: 9999px;
+}
+
+.rounded-3xl{
+  border-radius: 1.5rem;
 }
 
 .bg-slate-500{
