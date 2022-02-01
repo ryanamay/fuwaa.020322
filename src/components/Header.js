@@ -11,7 +11,7 @@ export default function Header(props) {
             <div className="flex flex-row min-h-screen justify-center bg-cover bg-center items-center relative" style={{backgroundImage: "url("+props.image+")", backgroundSize: '100% 100%)'}}>
                 {/* <Banner /> */}
                 <div className="mr-auto ml-auto justify-center items-center text-center text-white">
-                    <img src="/me.png" width="200" height="200" className="ml-auto mr-auto rounded-full outline outline-offset-2 outline-blue-500 mb-3"/>
+                    <img src="/me.png" width="200" height="200" className="ml-auto mr-auto rounded-full outline outline-offset-2 outline-white mb-3"/>
                     <h1 className="text-4xl font-semibold">Jariel Que</h1>
                     <h3 className="text-1xl mt-2 font-medium">Full Stack + DevOps</h3>
                     <div className="mb-5 space-x-1">

@@ -1,5 +1,5 @@
-import LazyShowRight from "./LazyShowRight";
-import LazyShow from "./LazyShow";
+import LazyShowRight from "../utils/LazyShowRight";
+import LazyShow from "../utils/LazyShow";
 export default function About() {
   return (
     <div id="about" className="flex flex-row flex-grow justify-center pt-16 lg:mx-12 md:mx-0">

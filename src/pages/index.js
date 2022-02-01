@@ -8,7 +8,7 @@ import Projects from "../components/Projects";
 import Contact from "../components/Contact";
 import { useEffect } from "react";
 import Script from "next/script";
-import LazyShow from "../components/LazyShow";
+import LazyShow from "../utils/LazyShow";
 
 export default function Home() {
   return (

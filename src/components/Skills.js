@@ -10,8 +10,8 @@ import {
 } from "react-icons/fa";
 import { SiFlutter, SiJavascript, SiJquery, SiMongodb, SiNextdotjs, SiTailwindcss, SiTerraform, SiSpringboot } from "react-icons/si";
 import { AiOutlineConsoleSql } from 'react-icons/ai';
-import LazyShowRight from "./LazyShowRight";
-import LazyShow from "./LazyShow";
+import LazyShowRight from "../utils/LazyShowRight";
+import LazyShow from "../utils/LazyShow";
 
 export default function Skills() {
   return (
