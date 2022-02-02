@@ -14,7 +14,7 @@ export default function Header(props) {
                     <img src="/me.png" width="200" height="200" className="ml-auto mr-auto rounded-full outline outline-offset-2 outline-white mb-3"/>
                     <h1 className="text-4xl font-semibold">Jariel Que</h1>
                     <h3 className="text-1xl mt-2 font-medium">Full Stack + DevOps</h3>
-                    <div className="mb-5 space-x-1">
+                    {/* <div className="mb-5 space-x-1">
                             <FaPython className="mx-auto inline mx-1" />
                             <FaHtml5 className="mx-auto inline mx-1" />
                             <FaCss3Alt className="mx-auto inline mx-1" />
@@ -24,8 +24,8 @@ export default function Header(props) {
                             <SiMongodb className="mx-auto inline mx-1" />
                             <FaReact className="mx-auto inline mx-1" />
                             <SiNextdotjs className="mx-auto inline mx-1" />
-                    </div>
-                    <div className="mb-5 space-x-1 text-2xl">
+                    </div> */}
+                    <div className="my-5 space-x-1 text-2xl">
                             <a href="https://www.github.com/nfni" target="_blank" rel="noreferrer">
                                 <FaGithub className="mx-auto inline mx-1 hover:text-red-500" />
                             </a>
